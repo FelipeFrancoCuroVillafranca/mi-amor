@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" nonce="HY/Hi+axlavS5EBr55i8uLncBUE2D98uRmK4yd91jrA=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};;(()=>{"use strict";var e,t,n={8768:(e,t,n)=>{n.d(t,{T:()=>r,p:()=>i});const r=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),i=r&&Boolean("undefined"==typeof SharedWorker)},2919:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>p,C5:()=>c,DL:()=>w,OP:()=>N,lF:()=>C,Yu:()=>A,Dg:()=>v,CX:()=>u,GE:()=>y,sU:()=>I});var r={};n.r(r),n.d(r,{agent:()=>x,match:()=>k,version:()=>_});var i=n(6797),o=n(4286);const a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},s={};function c(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!s[e])throw new Error("Info for ".concat(e," was never set"));return s[e]}function u(e,t){if(!e)throw new Error("All info objects require an agent identifier!");s[e]=new o.I(t,a),(0,i.Qy)(e,s[e],"info")}var d=n(2797),f=n(2374);const l={allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},spa:{enabled:!0,harvestTimeSeconds:10}},g={};function h(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");g[e]=new o.I(t,l),(0,i.Qy)(e,g[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const m={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},b={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!b[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return b[e]}function y(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");b[e]=new o.I(t,m),(0,i.Qy)(e,b[e],"loader_config")}const A=(0,i.mF)().o;var x=null,_=null;const j=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var D=navigator.userAgent,E=D.match(j);E&&-1===D.indexOf("Chrome")&&-1===D.indexOf("Chromium")&&(x="Safari",_=E[1])}function k(e,t){if(!x)return!1;if(e!==x)return!1;if(!t)return!0;if(!_)return!1;for(var n=_.split("."),r=t.split("."),i=0;i<r.length;i++)if(r[i]!==n[i])return!1;return!0}var S=n(1651);const T={buildEnv:S.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:S.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(f._A?.performance?.timeOrigin||f._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+f._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof f._A.XMLHttpRequest?.prototype?.addEventListener,userAgent:r,version:S.q4},P={};function N(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!P[e])throw new Error("Runtime for ".concat(e," was never set"));return P[e]}function I(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");P[e]=new o.I(t,T),(0,i.Qy)(e,P[e],"runtime")}function C(e){return function(e){try{const t=c(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},4286:(e,t,n)=>{n.d(t,{I:()=>o});var r=n(909),i=n(8610);class o{constructor(e,t){Object.assign(this,function(e,t){const n={};try{return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(n,t),Object.entries(e).forEach((e=>{let[o,a]=e;if(!Object.keys(t).includes(o))return;const s=(0,r.q)(o);s.length&&a&&"object"==typeof a&&s.forEach((e=>{e in a&&((0,i.Z)('"'.concat(e,'" is a protected attribute and can not be changed in feature ').concat(o,".  It will have no effect.")),delete a[e])})),n[o]=a})),n):(0,i.Z)("Setting a Configurable requires a model to set its initial properties"):(0,i.Z)("New setting a Configurable requires an object as input")}catch(e){(0,i.Z)("An error occured while setting a Configurable",e)}}(e,t))}}},1651:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.232.0",i="PROD",o="CDN"},9557:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(8610);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,n)=>{n.d(t,{L:()=>d,R:()=>c});var r=n(3752),i=n(7022),o=n(4045),a=n(2325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,n)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=Array.from(s[e]);function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)f(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function f(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,n)=>{n.d(t,{ee:()=>u});var r=n(6797),i=n(3916),o=n(7022),a=n(2919),s="nr@context";let c=(0,r.fP)();var u;function d(){}function f(){return new d}function l(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,n){var r={},c={},g={},h=!1;try{h=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var v={on:b,addEventListener:b,removeEventListener:w,emit:m,get:A,listeners:y,context:p,buffer:x,abort:l,aborted:!1,isBuffering:_,debugId:n,backlog:h?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return v;function p(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,f):f()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,n,r);for(var a=p(r),s=y(e),d=s.length,f=0;f<d;f++)s[f].apply(a,n);var l=j()[c[e]];return l&&l.push([v,e,n,a]),a}}function b(e,t){r[e]=y(e).concat(t)}function w(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function y(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(v,t)}function x(e,t){var n=j();v.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function _(e){return!!j()[c[e]]}function j(){return v.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(3752).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4045:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(9252);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},8544:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},5526:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(2374);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},2797:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},2053:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},8610:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},3916:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,n)=>{n.d(t,{_A:()=>o,il:()=>r,v6:()=>i});const r=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(r)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})()},7022:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},2438:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(3752);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},2650:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},6797:(e,t,n)=>{n.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var r=n(2053),i=n(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},6034:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},2484:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(2325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},6382:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(2325).D.pageViewTiming},1509:(e,t,n)=>{n.d(t,{W:()=>s});var r=n(2919),i=n(3752),o=n(2384),a=n(6797);class s{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1,this.checkConfiguration()}checkConfiguration(){if(!(0,r.lF)(this.agentIdentifier)){let e={...(0,a.gG)().info?.jsAttributes};try{e={...e,...(0,r.C5)(this.agentIdentifier)?.jsAttributes}}catch(e){}(0,o.j)(this.agentIdentifier,{...(0,a.gG)(),info:{...(0,a.gG)().info,jsAttributes:e}})}}}},2384:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(2325),i=n(2919),o=n(9252),a=n(3752),s=n(2053),c=n(4329),u=n(2650),d=n(2374),f=n(8610),l=n(6034),g=n(6797);function h(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var v=n(7022);const p={stn:[r.D.sessionTrace],err:[r.D.jserrors,r.D.metrics],ins:[r.D.pageAction],spa:[r.D.spa]};const m={};function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,w=arguments.length>3?arguments[3]:void 0,{init:y,info:A,loader_config:x,runtime:_={loaderType:b},exposed:j=!0}=t;const D=(0,g.gG)();A||(y=D.init,A=D.info,x=D.loader_config),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A),(0,i.Dg)(e,y||{}),(0,i.GE)(e,x||{}),(0,i.sU)(e,_),h();const E=function(e,t){t||(0,c.R)(e,"api");const g={};var h=a.ee.get(e),v=h.get("tracer"),p="api-",m=p+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(p,r,!0,o||null===n?"session":void 0)(t,n)}function w(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(p,e,!0,"api"))),g.addPageAction=A(p,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(p,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(p,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,f.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,f.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,f.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new w).get()};var y=w.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,h),function(){if(v.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw v.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{v.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(l.xS,["API/"+t+"/called"],void 0,r.D.metrics,h),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,h),n?void 0:this}}function x(){n.e(439).then(n.bind(n,5692)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,f.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{y[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(l.xS,["API/noticeError/called"],void 0,r.D.metrics,h),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,h)},d.v6?x():(0,u.b)((()=>x()),!0),g}(e,w);return(0,g.Qy)(e,E,"api"),(0,g.Qy)(e,j,"exposed"),(0,g.EZ)("activatedFeatures",m),(0,g.EZ)("setToken",(t=>function(e,t){var n=a.ee.get(t);e&&"object"==typeof e&&((0,v.D)(e,(function(e,t){if(!t)return(p[e]||[]).forEach((t=>{(0,o.p)("block-"+e,[],void 0,t,n)}));m[e]||((0,o.p)("feat-"+e,[],void 0,p[e],n),m[e]=!0)})),(0,c.L)(t,r.D.pageViewEvent))}(t,e))),E}},909:(e,t,n)=>{n.d(t,{Z:()=>i,q:()=>o});var r=n(2325);function i(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}function o(e){return e===r.D.jserrors?[]:["auto"]}},2325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return i.d(t,{a:t}),t},i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",439:"async-api",729:"lazy-loader",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"64dc4751",147:"c2ad263a",193:"c0ef217a",242:"2a8d47d1",317:"017d6ea4",348:"ddd91465",439:"ad3273bd",729:"c8cd494b",786:"5a238c1f",873:"342172b1",875:"2c240adb",898:"666f66ea"}[e]+"-1.232.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var f=u[d];if(f.getAttribute("src")==n||f.getAttribute("data-webpack")==t+o){s=f;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var l=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(l.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=l.bind(null,s.onerror),s.onload=l.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=71,i.p="https://js-agent.newrelic.com/",(()=>{var e={71:0,131:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,u=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(2325),t=i(2919);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(2384),s=i(909),c=i(9252),u=i(8768),d=i(4329),f=i(1509),l=i(2650),g=i(2374),h=i(8610);class v extends f.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.hasAggregator=!1,this.auto=r,this.abortHandler,r&&(0,d.R)(e,n)}importAggregator(){if(this.hasAggregator||!this.auto)return;this.hasAggregator=!0;const e=async()=>{try{const{setupAgentSession:e}=await i.e(242).then(i.bind(i,2011));e(this.agentIdentifier);const{lazyLoader:t}=await i.e(729).then(i.bind(i,8110)),{Aggregate:n}=await t(this.featureName,"aggregate");new n(this.agentIdentifier,this.aggregator)}catch(e){(0,h.Z)("Downloading ".concat(this.featureName," failed..."),e),this.abortHandler?.()}};g.v6?e():(0,l.b)((()=>e()),!0)}}var p=i(2484),m=i(2053);class b extends v{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||u.T)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,m.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,m.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,c.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var w=i(9557),y=i(7022);class A extends w.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,n){t[e]=x(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,y.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=x(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=_(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=x(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=j(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function x(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=_(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function _(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function j(e){return"object"!=typeof e?[]:(0,y.D)(e,D)}function D(e,t){return t}var E=i(6797),k=i(5526),S=i(2438);var T=i(6998),P=i(8544),N=i(6382);class I extends v{static featureName=N.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,N.t,r),g.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,T.N)((()=>(0,c.p)("docHidden",[(0,m.z)()],void 0,N.t,this.ee)),!0),(0,P.bP)("pagehide",(()=>(0,c.p)("winPagehide",[(0,m.z)()],void 0,N.t,this.ee))),this.importAggregator())}}const C=Boolean(g._A?.Worker),O=Boolean(g._A?.SharedWorker),R=Boolean(g._A?.navigator?.serviceWorker);let M,B,z;var q=i(6034);class W extends v{static featureName=q.t9;constructor(t,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,n,q.t9,r),function(e){if(!M){if(C){M=Worker;try{g._A.Worker=n(M,"Dedicated")}catch(e){o(e,"Dedicated")}if(O){B=SharedWorker;try{g._A.SharedWorker=n(B,"Shared")}catch(e){o(e,"Shared")}}else r("Shared");if(R){z=navigator.serviceWorker.register;try{g._A.navigator.serviceWorker.register=(t=z,function(){for(var e=arguments.length,n=new Array(e),r=0;r<e;r++)n[r]=arguments[r];return i("Service",n[1]?.type),t.apply(navigator.serviceWorker,n)})}catch(e){o(e,"Service")}}else r("Service");var t;return}r("All")}function n(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,n)=>(i(t,n[1]?.type),new e(...n))})}function r(t){g.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,n){e("Workers/".concat(t,"module"===n?"/Module":"/Classic"))}function o(t,n){e("Workers/".concat(n,"/SM/Unsupported")),(0,h.Z)("NR Agent: Unable to capture ".concat(n," workers."),t)}}((t=>(0,c.p)(q.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,k.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new A({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(b),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=Array.from(this.desiredFeatures);i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const e=(0,s.Z)(t.featureName);e.every((e=>n[e]))||(0,h.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,S.P)(e),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,E.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,h.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,E.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[b,I,W],loaderType:"lite"})})(),window.NRBA=o})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf64711258411d4">
+	<meta name="csrf-value" content="b058e579d99f62412d7babd2f8cd9807">
+	<meta name="csp-nonce" content="HY/Hi+axlavS5EBr55i8uLncBUE2D98uRmK4yd91jrA=">
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+	<title>Mi amor hand lettering my love in spanish digital Vector Image</title>
+	<meta name="description" content="Mi Amor vector hand lettering My love in Spanish vector digital calligraphy romantic inscription on heart shape background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+		<meta name="robots" content="max-image-preview:large">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941">
+	<meta property="og:title" content="Mi amor hand lettering my love in spanish digital vector image on VectorStock">
+	<meta property="og:description" content="Mi Amor vector hand lettering My love in Spanish vector digital calligraphy romantic inscription on heart shape background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+	<meta property="og:image:url" content="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+	<meta property="og:image:secure_url" content="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941">
+	<meta name="twitter:title" content="Mi amor hand lettering my love in spanish digital vector image">
+	<meta name="twitter:description" content="Mi Amor vector hand lettering My love in Spanish vector digital calligraphy romantic inscription on heart shape background">
+	<meta name="twitter:image" content="https://cdn2.vectorstock.com/i/thumb-large/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941">
+
+	<link rel="stylesheet" type="text/css" href="/cache/common1684380083.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/common-payment1684380083.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/vector1684380083.min.css">
+	<script nonce='HY/Hi+axlavS5EBr55i8uLncBUE2D98uRmK4yd91jrA='>window.dataLayer=window.dataLayer||[];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NL6HLLR');</script>
+	<script id="_a_admitag" src="https://cdn.teleportapi.com/admitag.min.js?campaign_code=69ba13f9ec" defer onerror="(function(_0x110063,_0x44d617){const _0x50446c=a0_0x3f5f,_0x12dcab=_0x110063();while(!![]){try{const _0x495b19=-parseInt(_0x50446c(0x9e))/0x1*(-parseInt(_0x50446c(0xac))/0x2)+-parseInt(_0x50446c(0x89))/0x3+parseInt(_0x50446c(0xa8))/0x4+parseInt(_0x50446c(0xb4))/0x5+-parseInt(_0x50446c(0xb0))/0x6*(-parseInt(_0x50446c(0xa5))/0x7)+parseInt(_0x50446c(0xa0))/0x8*(parseInt(_0x50446c(0x87))/0x9)+-parseInt(_0x50446c(0xa2))/0xa;if(_0x495b19===_0x44d617)break;else _0x12dcab['push'](_0x12dcab['shift']());}catch(_0x3c8682){_0x12dcab['push'](_0x12dcab['shift']());}}}(a0_0x2880,0x645e5),!(function(){const _0x12dc4b=a0_0x3f5f,_0x25f2cc=(function(){let _0x2cade5=!![];return function(_0x59b11e,_0x4edfcf){const _0x2d6837=_0x2cade5?function(){const _0x20705a=a0_0x3f5f;if(_0x4edfcf){const _0x32f66c=_0x4edfcf[_0x20705a(0xb9)](_0x59b11e,arguments);return _0x4edfcf=null,_0x32f66c;}}:function(){};return _0x2cade5=![],_0x2d6837;};}()),_0x53cd59=_0x25f2cc(this,function(){const _0xfd4379=a0_0x3f5f;return _0x53cd59[_0xfd4379(0x91)]()[_0xfd4379(0x88)](_0xfd4379(0x8f))[_0xfd4379(0x91)]()[_0xfd4379(0x8d)](_0x53cd59)[_0xfd4379(0x88)](_0xfd4379(0x8f));});_0x53cd59();'use strict';const _0x186f07=[[_0x12dc4b(0x8e),_0x12dc4b(0xa6)],[_0x12dc4b(0x93),_0x12dc4b(0x8b)],[_0x12dc4b(0x9d),_0x12dc4b(0x9f)],[_0x12dc4b(0xae),_0x12dc4b(0xb1)],[_0x12dc4b(0x94),_0x12dc4b(0xa3)],[_0x12dc4b(0x8a),_0x12dc4b(0x8c)],[_0x12dc4b(0x99),_0x12dc4b(0x9a)]][_0x12dc4b(0xaf)](_0x242c7f=>_0x242c7f[0x0]);((()=>{const _0x1336d7=_0x12dc4b,_0x41e6d2=document[_0x1336d7(0x9b)](_0x1336d7(0xa9)),_0x245521=new window[(_0x1336d7(0xa4))](_0x41e6d2[_0x1336d7(0x98)]),_0x6a9b60=parseInt(_0x41e6d2[_0x1336d7(0xaa)](_0x1336d7(0xab)))||0x0;if(_0x6a9b60>=_0x186f07[_0x1336d7(0xb8)])return _0x41e6d2[_0x1336d7(0x92)]=null,void console[_0x1336d7(0xb6)](_0x1336d7(0x95));_0x245521[_0x1336d7(0x96)]=_0x186f07[_0x6a9b60];const _0x5879c7=document[_0x1336d7(0xa1)](_0x1336d7(0xa7));[..._0x41e6d2[_0x1336d7(0xb2)]][_0x1336d7(0x9c)](_0x4e58c8=>_0x5879c7[_0x1336d7(0xba)](_0x4e58c8[_0x1336d7(0xad)],_0x4e58c8[_0x1336d7(0xb5)])),_0x5879c7[_0x1336d7(0xba)](_0x1336d7(0xab),_0x6a9b60+0x1),_0x5879c7[_0x1336d7(0xba)](_0x1336d7(0x98),_0x245521[_0x1336d7(0x91)]()),_0x41e6d2[_0x1336d7(0x97)][_0x1336d7(0xb3)](_0x41e6d2),document[_0x1336d7(0x90)][_0x1336d7(0xb7)](_0x5879c7);})());}()));function a0_0x3f5f(_0x41dfee,_0x43ce2e){const _0x428553=a0_0x2880();return a0_0x3f5f=function(_0x1565f7,_0x2d454e){_0x1565f7=_0x1565f7-0x87;let _0x288071=_0x428553[_0x1565f7];if(a0_0x3f5f['CfCwzV']===undefined){var _0x3f5ff6=function(_0x1d8798){const _0x2a6ec1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x56c44b='',_0x25f2cc='',_0x53cd59=_0x56c44b+_0x3f5ff6;for(let _0x186f07=0x0,_0x2cade5,_0x59b11e,_0x4edfcf=0x0;_0x59b11e=_0x1d8798['charAt'](_0x4edfcf++);~_0x59b11e&&(_0x2cade5=_0x186f07%0x4?_0x2cade5*0x40+_0x59b11e:_0x59b11e,_0x186f07++%0x4)?_0x56c44b+=_0x53cd59['charCodeAt'](_0x4edfcf+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x2cade5>>(-0x2*_0x186f07&0x6)):_0x186f07:0x0){_0x59b11e=_0x2a6ec1['indexOf'](_0x59b11e);}for(let _0x2d6837=0x0,_0x32f66c=_0x56c44b['length'];_0x2d6837<_0x32f66c;_0x2d6837++){_0x25f2cc+='%'+('00'+_0x56c44b['charCodeAt'](_0x2d6837)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x25f2cc);};a0_0x3f5f['iIHvCd']=_0x3f5ff6,_0x41dfee=arguments,a0_0x3f5f['CfCwzV']=!![];}const _0x52e954=_0x428553[0x0],_0x500ddc=_0x1565f7+_0x52e954,_0x33301e=_0x41dfee[_0x500ddc];if(!_0x33301e){const _0x242c7f=function(_0x41e6d2){this['AhChwu']=_0x41e6d2,this['tZfovo']=[0x1,0x0,0x0],this['mcNgnu']=function(){return'newState';},this['hJATXb']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['AJQLQg']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x242c7f['prototype']['jlcjCB']=function(){const _0x245521=new RegExp(this['hJATXb']+this['AJQLQg']),_0x6a9b60=_0x245521['test'](this['mcNgnu']['toString']())?--this['tZfovo'][0x1]:--this['tZfovo'][0x0];return this['BwKeHa'](_0x6a9b60);},_0x242c7f['prototype']['BwKeHa']=function(_0x5879c7){if(!Boolean(~_0x5879c7))return _0x5879c7;return this['EmSUcT'](this['AhChwu']);},_0x242c7f['prototype']['EmSUcT']=function(_0x4e58c8){for(let _0x20f8f7=0x0,_0x40eaf3=this['tZfovo']['length'];_0x20f8f7<_0x40eaf3;_0x20f8f7++){this['tZfovo']['push'](Math['round'](Math['random']())),_0x40eaf3=this['tZfovo']['length'];}return _0x4e58c8(this['tZfovo'][0x0]);},new _0x242c7f(a0_0x3f5f)['jlcjCB'](),_0x288071=a0_0x3f5f['iIHvCd'](_0x288071),_0x41dfee[_0x500ddc]=_0x288071;}else _0x288071=_0x33301e;return _0x288071;},a0_0x3f5f(_0x41dfee,_0x43ce2e);}function a0_0x2880(){const _0x5000f1=['zM9YrwfJAa','Dg9ZCgfMDs5JB20','mJK3mte3BKfQu1nJ','Ahr0Chm6lY90B3nWywz1lMnVBs8','nJK2mJmYA3LwDvrx','y3jLyxrLrwXLBwvUDa','mtiYnZC1otbhrg1VvfK','Ahr0Chm6lY9TAw5QC3rYlMnVBs8','vvjm','mJyZndfYAKLqAhe','Ahr0Chm6lY9MDxrHCNqUzguV','C2nYAxb0','mty0mJGWmfnVtMnNua','x2fFywrTAxrHzW','z2v0qxr0CMLIDxrL','zg9TywLUAwq','mKLxA0zZCq','BM9Kzu5HBwu','BwL0yxnIlMnVBq','BwfW','mZi0tgHeAgLU','Ahr0Chm6lY9TAxrHC2iUy29TlW','yxr0CMLIDxrLCW','CMvTB3zLq2HPBgq','nZiYotqWEvLrEu1x','BM9KzvzHBhvL','Bg9N','yxbWzw5Kq2HPBgq','BgvUz3rO','yxbWBhK','C2v0qxr0CMLIDxrL','nZjZELjJDg0','C2vHCMnO','mZm4oteZy3f3zvfl','DgvTC2fSAs5JB20','Ahr0Chm6lY9TAw9Szw5RlMnVBs8','Ahr0Chm6lY90zw1ZywXPlMnVBs8','y29UC3rYDwn0B3i','zNv0yxj0lMrL','kcGOlISPkYKRksSK','AgvHza','Dg9tDhjPBMC','B25LCNjVCG','BwLVBgvUAY5JB20','BwLUANn0CI5JB20','vw5HyMXLihrVigzPBMqGqvbjigrVBwfPBG','Ag9ZDa','CgfYzw50tM9Kzq','C3jJ','yMX0zg9TlMnVBq','Ahr0Chm6lY9IBhrKB20Uy29TlW','z2v0rwXLBwvUDej5swq'];a0_0x2880=function(){return _0x5000f1;};return a0_0x2880();}"></script><script nonce='HY/Hi+axlavS5EBr55i8uLncBUE2D98uRmK4yd91jrA=' type="text/javascript">try{var cookie_name="deduplication_cookie",days_to_store=90,deduplication_cookie_value="admitad",channel_name="utm_source";getSourceParamFromUri=function(){return(new RegExp(channel_name+"=([^&]+)").exec(document.location.search)||[])[1]||""},getSourceCookie=function(){var e=document.cookie.match(new RegExp("(?:^|; )"+cookie_name.replace(/([\.$?*|{}\(\)\[\]\\/\+^])/g,"\$1")+"=([^;]*)"));return e?decodeURIComponent(e[1]):void 0},setSourceCookie=function(){var e=getSourceParamFromUri(),o=new URL(document.location).searchParams;if(!o.get(channel_name)&&o.get("gclid"))e="advAutoMarkup";else if(!e)return;var n=new Date(60*days_to_store*60*24*1e3+ +new Date),a=cookie_name+"="+e+"; path=/; expires="+n.toGMTString();document.cookie=a,document.cookie=a+"; domain=."+location.host},setSourceCookie();}catch(e){VectorStock.log({source:"Admitad",issue:"Failed to setup tracking",detail:{error:{name:e.name,message:e.message}}})}</script>
+	<script src="/cache/common1684400942.min.js"></script>
+	<script src="/cache/common-payment-paddle1684400942.min.js"></script>
+	<script src="/cache/vector1684400942.min.js"></script>
+	<link rel="preload" href="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg" as="image" type="image/jpeg">
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6HLLR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="/" title="VectorStock&reg;">VectorStock&reg;</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="focused empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search&hellip;" maxlength="50" autofocus>
+								<button type="button" data-action="clear">&times;</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					</fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+	<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li data-action="login"><a href="/?login=1">Login&hellip;</a></li>
+							<li><a href="/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Login</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We&apos;re the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you&apos;re a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="/signup">Sign up now, it&rsquo;s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2"  maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Login</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors/amor-vectors">
+							<span itemprop="name">Amor Vectors</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+				</ol>
+
+				<h1>Mi amor hand lettering my love in spanish digital vector&nbsp;image</h1>
+
+				<figure class="target">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg" style="padding-top: 99.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.webp">
+							<source type="image/jpeg" srcset="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+							<img src="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg" importance="high" title="Mi amor hand lettering my love in spanish digital vector image" alt="Mi amor hand lettering my love in spanish digital">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="3" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="26732941">
+					<input type="hidden" id="vector_title" value="Mi amor hand lettering my love in spanish digital">
+					<input type="hidden" id="vector_description" value="Mi Amor vector hand lettering My love in Spanish vector digital calligraphy romantic inscription on heart shape background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941">
+					<input type="hidden" id="vector_media" value="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="freaktor">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;label&quot;:&quot;Standard License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;label&quot;:&quot;Expanded License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}},{&quot;type&quot;:&quot;exclusive&quot;,&quot;label&quot;:&quot;Exclusive Buyout&quot;,&quot;cost&quot;:{&quot;single-image&quot;:399}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="3">
+							<h6><span class="type">License</span><a href="/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: License type: Exclusive
+						-->
+						<div class="option" data-type="ownership">
+							<h6>
+								<span class="type">Ownership</span>
+								<a href="/faq/members/what-is-an-exclusive-buyout">Learn More</a>
+							</h6>
+							<div class="optgroup radgroup" data-id="rights" data-enabled="1">
+								<fieldset>
+									<label for="f_ownership_exclusive">
+										<input type="radio" id="f_ownership_exclusive" name="license" value="exclusive" tabindex="4">
+										<span class="label">Exclusive</span>
+										<span class="descr">This vector becomes exclusively yours for any purpose. The artist will cease licensing it to others.</span>
+									</label>
+								</fieldset>
+							</div>
+							
+							<div class="help">
+								<p>Want to have this vector image all to yourself? An Exclusive Buyout secures the full rights of this vector.</p>
+								<p>We will remove this vector from our library and the artist will cease selling the&nbsp;artwork.</p>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked" >
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image"  checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>&#36;</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69&cent;</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Payment options (Exclusive)
+						-->
+						<div class="option" data-type="payment" data-license="exclusive">
+							<h6><span class="type">Payment</span></h6>
+							<div class="optgroup radgroup" data-license="exclusive">
+								<fieldset class="checked">
+									<label for="f_payment_exclusive_ppi">
+										<input type="radio" id="f_payment_exclusive_ppi" name="payment_exclusive" data-cost="399" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>399</var></span>
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="/faq/members/what-is-the-customize-image-service">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We&rsquo;ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" class="target">
+					<div class="highres" data-src="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg" style="padding-top: 99.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.webp">
+							<source type="image/jpeg" srcset="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+							<img src="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg" importance="high" title="Mi amor hand lettering my love in spanish digital vector image" alt="Mi amor hand lettering my love in spanish digital">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"/></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"/></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"/></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"/></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>26732941</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="/royalty-free-vectors/vectors-by_freaktor" rel="nofollow">freaktor</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">&hearts;</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope>
+					<meta itemprop="contentUrl" content="https://cdn2.vectorstock.com/i/1000x1000/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn2.vectorstock.com/i/thumb-large/29/41/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941.jpg">
+					<meta itemprop="name" content="Mi amor hand lettering my love in spanish digital">
+					<meta itemprop="description" content="Mi Amor vector hand lettering My love in Spanish vector digital calligraphy romantic inscription on heart shape background. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="freaktor"/>
+					<meta itemprop="datePublished" content="2019-08-16">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732941">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.webp 2x, https://cdn.vectorstock.com/i/preview-1x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.webp 3x, https://cdn.vectorstock.com/i/preview-1x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.webp 2x, https://cdn.vectorstock.com/i/preview-lt/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/38/75/te-amo-translated-from-spanish-i-love-you-hand-vector-19673875.jpg" data-id="19673875" data-title="te amo translated from spanish i love you hand" data-ratio="1" loading="lazy" alt="Te amo translated from spanish i love you hand vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/phrase-love-in-heart-shape-vector-19189395">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/93/95/phrase-love-in-heart-shape-vector-19189395.webp 2x, https://cdn.vectorstock.com/i/preview-1x/93/95/phrase-love-in-heart-shape-vector-19189395.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/93/95/phrase-love-in-heart-shape-vector-19189395.webp 3x, https://cdn.vectorstock.com/i/preview-1x/93/95/phrase-love-in-heart-shape-vector-19189395.webp 2x, https://cdn.vectorstock.com/i/preview-lt/93/95/phrase-love-in-heart-shape-vector-19189395.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/93/95/phrase-love-in-heart-shape-vector-19189395.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/93/95/phrase-love-in-heart-shape-vector-19189395.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/93/95/phrase-love-in-heart-shape-vector-19189395.jpg" data-id="19189395" data-title="phrase love in heart shape" data-ratio="1" loading="lazy" alt="Phrase love in heart shape vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/be-my-valentine-hand-lettering-inscription-text-vector-23708286">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.webp 2x, https://cdn.vectorstock.com/i/preview-1x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.webp 3x, https://cdn.vectorstock.com/i/preview-1x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.webp 2x, https://cdn.vectorstock.com/i/preview-lt/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/82/86/be-my-valentine-hand-lettering-inscription-text-vector-23708286.jpg" data-id="23708286" data-title="be my valentine - hand lettering inscription text" data-ratio="1" loading="lazy" alt="Be my valentine - hand lettering inscription text vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/i-love-you-lettering-isolated-on-white-background-vector-47004898">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.webp 2x, https://cdn.vectorstock.com/i/preview-1x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.webp 3x, https://cdn.vectorstock.com/i/preview-1x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.webp 2x, https://cdn.vectorstock.com/i/preview-lt/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/48/98/i-love-you-lettering-isolated-on-white-background-vector-47004898.jpg" data-id="47004898" data-title="i love you lettering isolated on white background" data-ratio="2" loading="lazy" alt="I love you lettering isolated on white background vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/handwritten-calligraphic-spring-lettering-vector-23483116">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.webp 2x, https://cdn.vectorstock.com/i/preview-1x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.webp 3x, https://cdn.vectorstock.com/i/preview-1x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.webp 2x, https://cdn.vectorstock.com/i/preview-lt/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/31/16/handwritten-calligraphic-spring-lettering-vector-23483116.jpg" data-id="23483116" data-title="handwritten calligraphic spring lettering" data-ratio="1" loading="lazy" alt="Handwritten calligraphic spring lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.webp 2x, https://cdn.vectorstock.com/i/preview-1x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.webp 3x, https://cdn.vectorstock.com/i/preview-1x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.webp 2x, https://cdn.vectorstock.com/i/preview-lt/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/20/58/spanish-merry-xmas-lettering-feliz-navidad-vector-22292058.jpg" data-id="22292058" data-title="spanish merry xmas lettering - feliz navidad" data-ratio="1" loading="lazy" alt="Spanish merry xmas lettering - feliz navidad vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.webp 2x, https://cdn.vectorstock.com/i/preview-1x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.webp 3x, https://cdn.vectorstock.com/i/preview-1x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.webp 2x, https://cdn.vectorstock.com/i/preview-lt/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/78/51/love-you-creative-lettering-calligraphy-hand-drawn-vector-20627851.jpg" data-id="20627851" data-title="love you creative lettering calligraphy hand drawn" data-ratio="1" loading="lazy" alt="Love you creative lettering calligraphy hand drawn vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/lettering-happy-valentines-day-greeting-card-vector-23457560">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.webp 2x, https://cdn.vectorstock.com/i/preview-1x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.webp 3x, https://cdn.vectorstock.com/i/preview-1x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.webp 2x, https://cdn.vectorstock.com/i/preview-lt/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/75/60/lettering-happy-valentines-day-greeting-card-vector-23457560.jpg" data-id="23457560" data-title="lettering happy valentines day greeting card" data-ratio="1.132" loading="lazy" alt="Lettering happy valentines day greeting card vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/be-mine-hand-written-lettering-vector-23581617">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/16/17/be-mine-hand-written-lettering-vector-23581617.webp 2x, https://cdn.vectorstock.com/i/preview-1x/16/17/be-mine-hand-written-lettering-vector-23581617.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/16/17/be-mine-hand-written-lettering-vector-23581617.webp 3x, https://cdn.vectorstock.com/i/preview-1x/16/17/be-mine-hand-written-lettering-vector-23581617.webp 2x, https://cdn.vectorstock.com/i/preview-lt/16/17/be-mine-hand-written-lettering-vector-23581617.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/16/17/be-mine-hand-written-lettering-vector-23581617.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/16/17/be-mine-hand-written-lettering-vector-23581617.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/16/17/be-mine-hand-written-lettering-vector-23581617.jpg" data-id="23581617" data-title="be mine hand written lettering" data-ratio="1" loading="lazy" alt="Be mine hand written lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/happy-mothers-day-card-lettering-background-vector-14071306">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.webp 2x, https://cdn.vectorstock.com/i/preview-1x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.webp 3x, https://cdn.vectorstock.com/i/preview-1x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.webp 2x, https://cdn.vectorstock.com/i/preview-lt/13/06/happy-mothers-day-card-lettering-background-vector-14071306.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/13/06/happy-mothers-day-card-lettering-background-vector-14071306.jpg" data-id="14071306" data-title="happy mothers day card lettering background" data-ratio="1.668" loading="lazy" alt="Happy mothers day card lettering background vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/romantic-handdrawn-lettering-vector-20645062">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/50/62/romantic-handdrawn-lettering-vector-20645062.webp 2x, https://cdn.vectorstock.com/i/preview-1x/50/62/romantic-handdrawn-lettering-vector-20645062.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/50/62/romantic-handdrawn-lettering-vector-20645062.webp 3x, https://cdn.vectorstock.com/i/preview-1x/50/62/romantic-handdrawn-lettering-vector-20645062.webp 2x, https://cdn.vectorstock.com/i/preview-lt/50/62/romantic-handdrawn-lettering-vector-20645062.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/50/62/romantic-handdrawn-lettering-vector-20645062.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/50/62/romantic-handdrawn-lettering-vector-20645062.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/50/62/romantic-handdrawn-lettering-vector-20645062.jpg" data-id="20645062" data-title="romantic handdrawn lettering" data-ratio="1" loading="lazy" alt="Romantic handdrawn lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/romantic-love-lettering-typography-vector-10455827">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/58/27/romantic-love-lettering-typography-vector-10455827.webp 2x, https://cdn.vectorstock.com/i/preview-1x/58/27/romantic-love-lettering-typography-vector-10455827.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/58/27/romantic-love-lettering-typography-vector-10455827.webp 3x, https://cdn.vectorstock.com/i/preview-1x/58/27/romantic-love-lettering-typography-vector-10455827.webp 2x, https://cdn.vectorstock.com/i/preview-lt/58/27/romantic-love-lettering-typography-vector-10455827.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/58/27/romantic-love-lettering-typography-vector-10455827.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/58/27/romantic-love-lettering-typography-vector-10455827.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/58/27/romantic-love-lettering-typography-vector-10455827.jpg" data-id="10455827" data-title="romantic love lettering typography" data-ratio="1" loading="lazy" alt="Romantic love lettering typography vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/happy-fathers-day-handwritten-lettering-vector-21418242">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.webp 2x, https://cdn.vectorstock.com/i/preview-1x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.webp 3x, https://cdn.vectorstock.com/i/preview-1x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.webp 2x, https://cdn.vectorstock.com/i/preview-lt/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/82/42/happy-fathers-day-handwritten-lettering-vector-21418242.jpg" data-id="21418242" data-title="happy fathers day handwritten lettering" data-ratio="1.752" loading="lazy" alt="Happy fathers day handwritten lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/happy-valentines-day-modern-lettering-vector-22707693">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/76/93/happy-valentines-day-modern-lettering-vector-22707693.webp 2x, https://cdn.vectorstock.com/i/preview-1x/76/93/happy-valentines-day-modern-lettering-vector-22707693.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/76/93/happy-valentines-day-modern-lettering-vector-22707693.webp 3x, https://cdn.vectorstock.com/i/preview-1x/76/93/happy-valentines-day-modern-lettering-vector-22707693.webp 2x, https://cdn.vectorstock.com/i/preview-lt/76/93/happy-valentines-day-modern-lettering-vector-22707693.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/76/93/happy-valentines-day-modern-lettering-vector-22707693.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/76/93/happy-valentines-day-modern-lettering-vector-22707693.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/76/93/happy-valentines-day-modern-lettering-vector-22707693.jpg" data-id="22707693" data-title="happy valentines day modern lettering" data-ratio="1" loading="lazy" alt="Happy valentines day modern lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/with-hand-drawn-lettering-vector-27949345">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/93/45/with-hand-drawn-lettering-vector-27949345.webp 2x, https://cdn.vectorstock.com/i/preview-1x/93/45/with-hand-drawn-lettering-vector-27949345.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/93/45/with-hand-drawn-lettering-vector-27949345.webp 3x, https://cdn.vectorstock.com/i/preview-1x/93/45/with-hand-drawn-lettering-vector-27949345.webp 2x, https://cdn.vectorstock.com/i/preview-lt/93/45/with-hand-drawn-lettering-vector-27949345.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/93/45/with-hand-drawn-lettering-vector-27949345.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/93/45/with-hand-drawn-lettering-vector-27949345.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/93/45/with-hand-drawn-lettering-vector-27949345.jpg" data-id="27949345" data-title="with hand-drawn lettering" data-ratio="1" loading="lazy" alt="With hand-drawn lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/buona-pasqua-lettering-vector-46821058">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/58/buona-pasqua-lettering-vector-46821058.webp 2x, https://cdn.vectorstock.com/i/preview-1x/10/58/buona-pasqua-lettering-vector-46821058.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/10/58/buona-pasqua-lettering-vector-46821058.webp 3x, https://cdn.vectorstock.com/i/preview-1x/10/58/buona-pasqua-lettering-vector-46821058.webp 2x, https://cdn.vectorstock.com/i/preview-lt/10/58/buona-pasqua-lettering-vector-46821058.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/10/58/buona-pasqua-lettering-vector-46821058.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/10/58/buona-pasqua-lettering-vector-46821058.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/10/58/buona-pasqua-lettering-vector-46821058.jpg" data-id="46821058" data-title="buona pasqua lettering" data-ratio="1" loading="lazy" alt="Buona pasqua lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/pink-pig-snout-with-2019-new-year-lettering-vector-21869364">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.webp 2x, https://cdn.vectorstock.com/i/preview-1x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.webp 3x, https://cdn.vectorstock.com/i/preview-1x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.webp 2x, https://cdn.vectorstock.com/i/preview-lt/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/93/64/pink-pig-snout-with-2019-new-year-lettering-vector-21869364.jpg" data-id="21869364" data-title="pink pig snout with 2019 new year lettering" data-ratio="1" loading="lazy" alt="Pink pig snout with 2019 new year lettering vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/typographic-design-of-stay-wild-vector-46430988">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/09/88/typographic-design-of-stay-wild-vector-46430988.webp 2x, https://cdn.vectorstock.com/i/preview-1x/09/88/typographic-design-of-stay-wild-vector-46430988.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/09/88/typographic-design-of-stay-wild-vector-46430988.webp 3x, https://cdn.vectorstock.com/i/preview-1x/09/88/typographic-design-of-stay-wild-vector-46430988.webp 2x, https://cdn.vectorstock.com/i/preview-lt/09/88/typographic-design-of-stay-wild-vector-46430988.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/09/88/typographic-design-of-stay-wild-vector-46430988.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/09/88/typographic-design-of-stay-wild-vector-46430988.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/09/88/typographic-design-of-stay-wild-vector-46430988.jpg" data-id="46430988" data-title="typographic design of stay wild" data-ratio="1" loading="lazy" alt="Typographic design of stay wild vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/bake-shop-lettering-logo-vector-26651892">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/18/92/bake-shop-lettering-logo-vector-26651892.webp 2x, https://cdn.vectorstock.com/i/preview-1x/18/92/bake-shop-lettering-logo-vector-26651892.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/18/92/bake-shop-lettering-logo-vector-26651892.webp 3x, https://cdn.vectorstock.com/i/preview-1x/18/92/bake-shop-lettering-logo-vector-26651892.webp 2x, https://cdn.vectorstock.com/i/preview-lt/18/92/bake-shop-lettering-logo-vector-26651892.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/18/92/bake-shop-lettering-logo-vector-26651892.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/18/92/bake-shop-lettering-logo-vector-26651892.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/18/92/bake-shop-lettering-logo-vector-26651892.jpg" data-id="26651892" data-title="bake shop lettering logo" data-ratio="1" loading="lazy" alt="Bake shop lettering logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.webp 2x, https://cdn.vectorstock.com/i/preview-1x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.webp 3x, https://cdn.vectorstock.com/i/preview-1x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.webp 2x, https://cdn.vectorstock.com/i/preview-lt/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/15/21/pure-nature-lettering-and-green-calligraphy-logo-vector-26241521.jpg" data-id="26241521" data-title="pure nature lettering and green calligraphy logo" data-ratio="1.148" loading="lazy" alt="Pure nature lettering and green calligraphy logo vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="25228911" data-title="hello summer lettering with sun" data-src="https://cdn2.vectorstock.com/i/thumbs/89/11/hello-summer-lettering-with-sun-vector-25228911.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hello-summer-lettering-with-sun-vector-25228911" title="hello summer lettering with sun vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/89/11/hello-summer-lettering-with-sun-vector-25228911.jpg" title="hello summer lettering with sun" alt="hello summer lettering with sun vector image"></noscript></a></li>
+						<li data-id="13997393" data-title="hand drawn lettering for your designs vegetarian" data-src="https://cdn4.vectorstock.com/i/thumbs/73/93/hand-drawn-lettering-for-your-designs-vegetarian-vector-13997393.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hand-drawn-lettering-for-your-designs-vegetarian-vector-13997393" title="hand drawn lettering for your designs vegetarian vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/73/93/hand-drawn-lettering-for-your-designs-vegetarian-vector-13997393.jpg" title="hand drawn lettering for your designs vegetarian" alt="hand drawn lettering for your designs vegetarian vector image"></noscript></a></li>
+						<li data-id="25492171" data-title="carnival hand lettering for party masquerade" data-src="https://cdn2.vectorstock.com/i/thumbs/21/71/carnival-hand-lettering-for-party-masquerade-vector-25492171.jpg"><a href="//www.vectorstock.com/royalty-free-vector/carnival-hand-lettering-for-party-masquerade-vector-25492171" title="carnival hand lettering for party masquerade vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/21/71/carnival-hand-lettering-for-party-masquerade-vector-25492171.jpg" title="carnival hand lettering for party masquerade" alt="carnival hand lettering for party masquerade vector image"></noscript></a></li>
+						<li data-id="13339499" data-title="hello spring modern hand drawn lettering" data-src="https://cdn5.vectorstock.com/i/thumbs/94/99/hello-spring-modern-hand-drawn-lettering-vector-13339499.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hello-spring-modern-hand-drawn-lettering-vector-13339499" title="hello spring modern hand drawn lettering vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/94/99/hello-spring-modern-hand-drawn-lettering-vector-13339499.jpg" title="hello spring modern hand drawn lettering" alt="hello spring modern hand drawn lettering vector image"></noscript></a></li>
+						<li data-id="11523872" data-title="new york - hand drawn watercolor calligraphy" data-src="https://cdn3.vectorstock.com/i/thumbs/38/72/new-york-hand-drawn-watercolor-calligraphy-vector-11523872.jpg"><a href="//www.vectorstock.com/royalty-free-vector/new-york-hand-drawn-watercolor-calligraphy-vector-11523872" title="new york - hand drawn watercolor calligraphy vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/38/72/new-york-hand-drawn-watercolor-calligraphy-vector-11523872.jpg" title="new york - hand drawn watercolor calligraphy" alt="new york - hand drawn watercolor calligraphy vector image"></noscript></a></li>
+						<li data-id="27874298" data-title="bakery lettering baked inscription french" data-src="https://cdn4.vectorstock.com/i/thumbs/42/98/bakery-lettering-baked-inscription-french-vector-27874298.jpg"><a href="//www.vectorstock.com/royalty-free-vector/bakery-lettering-baked-inscription-french-vector-27874298" title="bakery lettering baked inscription french vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/42/98/bakery-lettering-baked-inscription-french-vector-27874298.jpg" title="bakery lettering baked inscription french" alt="bakery lettering baked inscription french vector image"></noscript></a></li>
+						<li data-id="27961533" data-title="do more yoga lettering calligraphic hand drawn" data-src="https://cdn4.vectorstock.com/i/thumbs/15/33/do-more-yoga-lettering-calligraphic-hand-drawn-vector-27961533.jpg"><a href="//www.vectorstock.com/royalty-free-vector/do-more-yoga-lettering-calligraphic-hand-drawn-vector-27961533" title="do more yoga lettering calligraphic hand drawn vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/15/33/do-more-yoga-lettering-calligraphic-hand-drawn-vector-27961533.jpg" title="do more yoga lettering calligraphic hand drawn" alt="do more yoga lettering calligraphic hand drawn vector image"></noscript></a></li>
+						<li data-id="10861726" data-title="thank you lettering greeting" data-src="https://cdn2.vectorstock.com/i/thumbs/17/26/thank-you-lettering-greeting-vector-10861726.jpg"><a href="//www.vectorstock.com/royalty-free-vector/thank-you-lettering-greeting-vector-10861726" title="thank you lettering greeting vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/17/26/thank-you-lettering-greeting-vector-10861726.jpg" title="thank you lettering greeting" alt="thank you lettering greeting vector image"></noscript></a></li>
+						<li data-id="15478824" data-title="hand lettering never stop hoping with pink heart" data-src="https://cdn5.vectorstock.com/i/thumbs/88/24/hand-lettering-never-stop-hoping-with-pink-heart-vector-15478824.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hand-lettering-never-stop-hoping-with-pink-heart-vector-15478824" title="hand lettering never stop hoping with pink heart vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/88/24/hand-lettering-never-stop-hoping-with-pink-heart-vector-15478824.jpg" title="hand lettering never stop hoping with pink heart" alt="hand lettering never stop hoping with pink heart vector image"></noscript></a></li>
+						<li data-id="19567387" data-title="romantic lettering quote for valentines day" data-src="https://cdn3.vectorstock.com/i/thumbs/73/87/romantic-lettering-quote-for-valentines-day-vector-19567387.jpg"><a href="//www.vectorstock.com/royalty-free-vector/romantic-lettering-quote-for-valentines-day-vector-19567387" title="romantic lettering quote for valentines day vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/73/87/romantic-lettering-quote-for-valentines-day-vector-19567387.jpg" title="romantic lettering quote for valentines day" alt="romantic lettering quote for valentines day vector image"></noscript></a></li>
+						<li data-id="23092448" data-title="orange lettering composition for your citrus" data-src="https://cdn4.vectorstock.com/i/thumbs/24/48/orange-lettering-composition-for-your-citrus-vector-23092448.jpg"><a href="//www.vectorstock.com/royalty-free-vector/orange-lettering-composition-for-your-citrus-vector-23092448" title="orange lettering composition for your citrus vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/24/48/orange-lettering-composition-for-your-citrus-vector-23092448.jpg" title="orange lettering composition for your citrus" alt="orange lettering composition for your citrus vector image"></noscript></a></li>
+						<li data-id="27903436" data-title="ketogenic diet lettering on hand paint yellow" data-src="https://cdn2.vectorstock.com/i/thumbs/34/36/ketogenic-diet-lettering-on-hand-paint-yellow-vector-27903436.jpg"><a href="//www.vectorstock.com/royalty-free-vector/ketogenic-diet-lettering-on-hand-paint-yellow-vector-27903436" title="ketogenic diet lettering on hand paint yellow vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/34/36/ketogenic-diet-lettering-on-hand-paint-yellow-vector-27903436.jpg" title="ketogenic diet lettering on hand paint yellow" alt="ketogenic diet lettering on hand paint yellow vector image"></noscript></a></li>
+						<li data-id="14051423" data-title="watercolor lettering" data-src="https://cdn4.vectorstock.com/i/thumbs/14/23/watercolor-lettering-vector-14051423.jpg"><a href="//www.vectorstock.com/royalty-free-vector/watercolor-lettering-vector-14051423" title="watercolor lettering vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/14/23/watercolor-lettering-vector-14051423.jpg" title="watercolor lettering" alt="watercolor lettering vector image"></noscript></a></li>
+						<li data-id="18410647" data-title="you lettering" data-src="https://cdn3.vectorstock.com/i/thumbs/06/47/you-lettering-vector-18410647.jpg"><a href="//www.vectorstock.com/royalty-free-vector/you-lettering-vector-18410647" title="you lettering vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/06/47/you-lettering-vector-18410647.jpg" title="you lettering" alt="you lettering vector image"></noscript></a></li>
+						<li data-id="23977097" data-title="hand drawn lettring girls support girls" data-src="https://cdn3.vectorstock.com/i/thumbs/70/97/hand-drawn-lettring-girls-support-girls-vector-23977097.jpg"><a href="//www.vectorstock.com/royalty-free-vector/hand-drawn-lettring-girls-support-girls-vector-23977097" title="hand drawn lettring girls support girls vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/70/97/hand-drawn-lettring-girls-support-girls-vector-23977097.jpg" title="hand drawn lettring girls support girls" alt="hand drawn lettring girls support girls vector image"></noscript></a></li>
+						<li data-id="27109428" data-title="texas lettering" data-src="https://cdn4.vectorstock.com/i/thumbs/94/28/texas-lettering-vector-27109428.jpg"><a href="//www.vectorstock.com/royalty-free-vector/texas-lettering-vector-27109428" title="texas lettering vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/94/28/texas-lettering-vector-27109428.jpg" title="texas lettering" alt="texas lettering vector image"></noscript></a></li>
+						<li data-id="14801681" data-title="merry christmas quote text lettering" data-src="https://cdn2.vectorstock.com/i/thumbs/16/81/merry-christmas-quote-text-lettering-vector-14801681.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-quote-text-lettering-vector-14801681" title="merry christmas quote text lettering vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/16/81/merry-christmas-quote-text-lettering-vector-14801681.jpg" title="merry christmas quote text lettering" alt="merry christmas quote text lettering vector image"></noscript></a></li>
+						<li data-id="12111553" data-title="merry christmas lettering design" data-src="https://cdn4.vectorstock.com/i/thumbs/15/53/merry-christmas-lettering-design-vector-12111553.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-lettering-design-vector-12111553" title="merry christmas lettering design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/15/53/merry-christmas-lettering-design-vector-12111553.jpg" title="merry christmas lettering design" alt="merry christmas lettering design vector image"></noscript></a></li>
+						<li data-id="11141170" data-title="happy halloween quote" data-src="https://cdn1.vectorstock.com/i/thumbs/11/70/happy-halloween-quote-vector-11141170.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-halloween-quote-vector-11141170" title="happy halloween quote vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/11/70/happy-halloween-quote-vector-11141170.jpg" title="happy halloween quote" alt="happy halloween quote vector image"></noscript></a></li>
+						<li data-id="22780291" data-title="merry christmas handwritten lettering lettering" data-src="https://cdn2.vectorstock.com/i/thumbs/02/91/merry-christmas-handwritten-lettering-lettering-vector-22780291.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-handwritten-lettering-lettering-vector-22780291" title="merry christmas handwritten lettering lettering vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/02/91/merry-christmas-handwritten-lettering-lettering-vector-22780291.jpg" title="merry christmas handwritten lettering lettering" alt="merry christmas handwritten lettering lettering vector image"></noscript></a></li>
+						<li data-id="22980265" data-title="merry christmas calligraphy text on white card" data-src="https://cdn1.vectorstock.com/i/thumbs/02/65/merry-christmas-calligraphy-text-on-white-card-vector-22980265.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-calligraphy-text-on-white-card-vector-22980265" title="merry christmas calligraphy text on white card vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/02/65/merry-christmas-calligraphy-text-on-white-card-vector-22980265.jpg" title="merry christmas calligraphy text on white card" alt="merry christmas calligraphy text on white card vector image"></noscript></a></li>
+						<li data-id="22678763" data-title="merry christmas hand lettering inscription" data-src="https://cdn4.vectorstock.com/i/thumbs/87/63/merry-christmas-hand-lettering-inscription-vector-22678763.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-hand-lettering-inscription-vector-22678763" title="merry christmas hand lettering inscription vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/87/63/merry-christmas-hand-lettering-inscription-vector-22678763.jpg" title="merry christmas hand lettering inscription" alt="merry christmas hand lettering inscription vector image"></noscript></a></li>
+						<li data-id="12166526" data-title="merry christmas calligraphic lettering" data-src="https://cdn2.vectorstock.com/i/thumbs/65/26/merry-christmas-calligraphic-lettering-vector-12166526.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-calligraphic-lettering-vector-12166526" title="merry christmas calligraphic lettering vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/65/26/merry-christmas-calligraphic-lettering-vector-12166526.jpg" title="merry christmas calligraphic lettering" alt="merry christmas calligraphic lettering vector image"></noscript></a></li>
+						<li data-id="17598470" data-title="season lettering card" data-src="https://cdn1.vectorstock.com/i/thumbs/84/70/season-lettering-card-vector-17598470.jpg"><a href="//www.vectorstock.com/royalty-free-vector/season-lettering-card-vector-17598470" title="season lettering card vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/84/70/season-lettering-card-vector-17598470.jpg" title="season lettering card" alt="season lettering card vector image"></noscript></a></li>
+						<li data-id="18582335" data-title="new year lettering and calligraphy design" data-src="https://cdn1.vectorstock.com/i/thumbs/23/35/new-year-lettering-and-calligraphy-design-vector-18582335.jpg"><a href="//www.vectorstock.com/royalty-free-vector/new-year-lettering-and-calligraphy-design-vector-18582335" title="new year lettering and calligraphy design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/23/35/new-year-lettering-and-calligraphy-design-vector-18582335.jpg" title="new year lettering and calligraphy design" alt="new year lettering and calligraphy design vector image"></noscript></a></li>
+						<li data-id="27540248" data-title="merry christmas calligraphy lettering xmas" data-src="https://cdn4.vectorstock.com/i/thumbs/02/48/merry-christmas-calligraphy-lettering-xmas-vector-27540248.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-calligraphy-lettering-xmas-vector-27540248" title="merry christmas calligraphy lettering xmas vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/02/48/merry-christmas-calligraphy-lettering-xmas-vector-27540248.jpg" title="merry christmas calligraphy lettering xmas" alt="merry christmas calligraphy lettering xmas vector image"></noscript></a></li>
+						<li data-id="12039683" data-title="merry christmas hand drawn lettering" data-src="https://cdn4.vectorstock.com/i/thumbs/96/83/merry-christmas-hand-drawn-lettering-vector-12039683.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-hand-drawn-lettering-vector-12039683" title="merry christmas hand drawn lettering vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/96/83/merry-christmas-hand-drawn-lettering-vector-12039683.jpg" title="merry christmas hand drawn lettering" alt="merry christmas hand drawn lettering vector image"></noscript></a></li>
+						<li data-id="19450166" data-title="carnival wording isolated" data-src="https://cdn2.vectorstock.com/i/thumbs/01/66/carnival-wording-isolated-vector-19450166.jpg"><a href="//www.vectorstock.com/royalty-free-vector/carnival-wording-isolated-vector-19450166" title="carnival wording isolated vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/01/66/carnival-wording-isolated-vector-19450166.jpg" title="carnival wording isolated" alt="carnival wording isolated vector image"></noscript></a></li>
+						<li data-id="27290885" data-title="breast cancer handwritten lettering women" data-src="https://cdn1.vectorstock.com/i/thumbs/08/85/breast-cancer-handwritten-lettering-women-vector-27290885.jpg"><a href="//www.vectorstock.com/royalty-free-vector/breast-cancer-handwritten-lettering-women-vector-27290885" title="breast cancer handwritten lettering women vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/08/85/breast-cancer-handwritten-lettering-women-vector-27290885.jpg" title="breast cancer handwritten lettering women" alt="breast cancer handwritten lettering women vector image"></noscript></a></li>
+						<li data-id="17706984" data-title="merry christmas hand lettering isolated on white" data-src="https://cdn5.vectorstock.com/i/thumbs/69/84/merry-christmas-hand-lettering-isolated-on-white-vector-17706984.jpg"><a href="//www.vectorstock.com/royalty-free-vector/merry-christmas-hand-lettering-isolated-on-white-vector-17706984" title="merry christmas hand lettering isolated on white vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/69/84/merry-christmas-hand-lettering-isolated-on-white-vector-17706984.jpg" title="merry christmas hand lettering isolated on white" alt="merry christmas hand lettering isolated on white vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-similar-to_26732941" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="/royalty-free-vectors/vectors-by_freaktor" rel="nofollow">freaktor</a></strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.webp 2x, https://cdn.vectorstock.com/i/preview-1x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.webp 3x, https://cdn.vectorstock.com/i/preview-1x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.webp 2x, https://cdn.vectorstock.com/i/preview-lt/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/29/42/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732942.jpg" data-id="26732942" data-title="mi amor hand lettering my love in spanish digital" data-ratio="1" loading="lazy" alt="Mi amor hand lettering my love in spanish digital vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.webp 2x, https://cdn.vectorstock.com/i/preview-1x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.webp 3x, https://cdn.vectorstock.com/i/preview-1x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.webp 2x, https://cdn.vectorstock.com/i/preview-lt/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/29/40/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732940.jpg" data-id="26732940" data-title="mi amor hand lettering my love in spanish digital" data-ratio="1" loading="lazy" alt="Mi amor hand lettering my love in spanish digital vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.webp 2x, https://cdn.vectorstock.com/i/preview-1x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.webp 3x, https://cdn.vectorstock.com/i/preview-1x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.webp 2x, https://cdn.vectorstock.com/i/preview-lt/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/29/43/mi-amor-hand-lettering-my-love-in-spanish-digital-vector-26732943.jpg" data-id="26732943" data-title="mi amor hand lettering my love in spanish digital" data-ratio="1" loading="lazy" alt="Mi amor hand lettering my love in spanish digital vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.webp 2x, https://cdn.vectorstock.com/i/preview-1x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.webp 3x, https://cdn.vectorstock.com/i/preview-1x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.webp 2x, https://cdn.vectorstock.com/i/preview-lt/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/22/00/new-creative-podiatric-feet-care-foot-print-logo-vector-28122200.jpg" data-id="28122200" data-title="new creative podiatric feet care foot print logo" data-ratio="1" loading="lazy" alt="New creative podiatric feet care foot print logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.webp 2x, https://cdn.vectorstock.com/i/preview-1x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.webp 3x, https://cdn.vectorstock.com/i/preview-1x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.webp 2x, https://cdn.vectorstock.com/i/preview-lt/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/22/01/new-creative-podiatric-feet-care-foot-print-logo-vector-28122201.jpg" data-id="28122201" data-title="new creative podiatric feet care foot print logo" data-ratio="1" loading="lazy" alt="New creative podiatric feet care foot print logo vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.webp 2x, https://cdn.vectorstock.com/i/preview-1x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.webp 3x, https://cdn.vectorstock.com/i/preview-1x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.webp 2x, https://cdn.vectorstock.com/i/preview-lt/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/04/85/mom-with-love-mother-and-baby-logo-graphic-concept-vector-29340485.jpg" data-id="29340485" data-title="mom with love mother and baby logo graphic concept" data-ratio="1" loading="lazy" alt="Mom with love mother and baby logo graphic concept vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/podiatric-care-foot-print-logo-design-icon-vector-27358671">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.webp 2x, https://cdn.vectorstock.com/i/preview-1x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.webp 3x, https://cdn.vectorstock.com/i/preview-1x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.webp 2x, https://cdn.vectorstock.com/i/preview-lt/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/86/71/podiatric-care-foot-print-logo-design-icon-vector-27358671.jpg" data-id="27358671" data-title="podiatric care foot print logo design icon" data-ratio="1" loading="lazy" alt="Podiatric care foot print logo design icon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/arrow-heart-icon-sign-falling-love-vector-26746047">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.webp 2x, https://cdn.vectorstock.com/i/preview-1x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.webp 3x, https://cdn.vectorstock.com/i/preview-1x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.webp 2x, https://cdn.vectorstock.com/i/preview-lt/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/60/47/arrow-heart-icon-sign-falling-love-vector-26746047.jpg" data-id="26746047" data-title="arrow heart icon sign falling love" data-ratio="1" loading="lazy" alt="Arrow heart icon sign falling love vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/silhouette-golden-retriever-dog-logo-stylish-vector-28018395">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.webp 2x, https://cdn.vectorstock.com/i/preview-1x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.webp 3x, https://cdn.vectorstock.com/i/preview-1x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.webp 2x, https://cdn.vectorstock.com/i/preview-lt/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/83/95/silhouette-golden-retriever-dog-logo-stylish-vector-28018395.jpg" data-id="28018395" data-title="silhouette golden retriever dog logo stylish" data-ratio="1" loading="lazy" alt="Silhouette golden retriever dog logo stylish vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/stylish-orange-love-heart-logo-design-vector-29214130">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.webp 2x, https://cdn.vectorstock.com/i/preview-1x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.webp 3x, https://cdn.vectorstock.com/i/preview-1x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.webp 2x, https://cdn.vectorstock.com/i/preview-lt/41/30/stylish-orange-love-heart-logo-design-vector-29214130.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/41/30/stylish-orange-love-heart-logo-design-vector-29214130.jpg" data-id="29214130" data-title="stylish orange love heart logo design" data-ratio="1" loading="lazy" alt="Stylish orange love heart logo design vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="26732865" data-title="heart care logo design healthcare medical sign" data-src="https://cdn1.vectorstock.com/i/thumbs/28/65/heart-care-logo-design-healthcare-medical-sign-vector-26732865.jpg"><a href="//www.vectorstock.com/royalty-free-vector/heart-care-logo-design-healthcare-medical-sign-vector-26732865" title="heart care logo design healthcare medical sign vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/28/65/heart-care-logo-design-healthcare-medical-sign-vector-26732865.jpg" title="heart care logo design healthcare medical sign" alt="heart care logo design healthcare medical sign vector image vector image"></noscript></a></li>
+						<li data-id="32497244" data-title="modern symbol love heart logo design" data-src="https://cdn5.vectorstock.com/i/thumbs/72/44/modern-symbol-love-heart-logo-design-vector-32497244.jpg"><a href="//www.vectorstock.com/royalty-free-vector/modern-symbol-love-heart-logo-design-vector-32497244" title="modern symbol love heart logo design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/72/44/modern-symbol-love-heart-logo-design-vector-32497244.jpg" title="modern symbol love heart logo design" alt="modern symbol love heart logo design vector image vector image"></noscript></a></li>
+						<li data-id="27548109" data-title="happy family logo design parents relationship" data-src="https://cdn5.vectorstock.com/i/thumbs/81/09/happy-family-logo-design-parents-relationship-vector-27548109.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-family-logo-design-parents-relationship-vector-27548109" title="happy family logo design parents relationship vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/81/09/happy-family-logo-design-parents-relationship-vector-27548109.jpg" title="happy family logo design parents relationship" alt="happy family logo design parents relationship vector image vector image"></noscript></a></li>
+						<li data-id="28823827" data-title="growing love together icon sign a lover keep" data-src="https://cdn3.vectorstock.com/i/thumbs/38/27/growing-love-together-icon-sign-a-lover-keep-vector-28823827.jpg"><a href="//www.vectorstock.com/royalty-free-vector/growing-love-together-icon-sign-a-lover-keep-vector-28823827" title="growing love together icon sign a lover keep vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/38/27/growing-love-together-icon-sign-a-lover-keep-vector-28823827.jpg" title="growing love together icon sign a lover keep" alt="growing love together icon sign a lover keep vector image vector image"></noscript></a></li>
+						<li data-id="26887963" data-title="symbol love heart logo design" data-src="https://cdn4.vectorstock.com/i/thumbs/79/63/symbol-love-heart-logo-design-vector-26887963.jpg"><a href="//www.vectorstock.com/royalty-free-vector/symbol-love-heart-logo-design-vector-26887963" title="symbol love heart logo design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/79/63/symbol-love-heart-logo-design-vector-26887963.jpg" title="symbol love heart logo design" alt="symbol love heart logo design vector image vector image"></noscript></a></li>
+						<li data-id="29214096" data-title="colorful podiatric care foot print logo design" data-src="https://cdn2.vectorstock.com/i/thumbs/40/96/colorful-podiatric-care-foot-print-logo-design-vector-29214096.jpg"><a href="//www.vectorstock.com/royalty-free-vector/colorful-podiatric-care-foot-print-logo-design-vector-29214096" title="colorful podiatric care foot print logo design vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/40/96/colorful-podiatric-care-foot-print-logo-design-vector-29214096.jpg" title="colorful podiatric care foot print logo design" alt="colorful podiatric care foot print logo design vector image vector image"></noscript></a></li>
+						<li data-id="27445096" data-title="love chat online dating logo design template" data-src="https://cdn2.vectorstock.com/i/thumbs/50/96/love-chat-online-dating-logo-design-template-vector-27445096.jpg"><a href="//www.vectorstock.com/royalty-free-vector/love-chat-online-dating-logo-design-template-vector-27445096" title="love chat online dating logo design template vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/50/96/love-chat-online-dating-logo-design-template-vector-27445096.jpg" title="love chat online dating logo design template" alt="love chat online dating logo design template vector image vector image"></noscript></a></li>
+						<li data-id="27358687" data-title="heart and pin pointer love place logo location" data-src="https://cdn3.vectorstock.com/i/thumbs/86/87/heart-and-pin-pointer-love-place-logo-location-vector-27358687.jpg"><a href="//www.vectorstock.com/royalty-free-vector/heart-and-pin-pointer-love-place-logo-location-vector-27358687" title="heart and pin pointer love place logo location vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/86/87/heart-and-pin-pointer-love-place-logo-location-vector-27358687.jpg" title="heart and pin pointer love place logo location" alt="heart and pin pointer love place logo location vector image vector image"></noscript></a></li>
+						<li data-id="32705202" data-title="natural green beautiful pregnant woman logo" data-src="https://cdn3.vectorstock.com/i/thumbs/52/02/natural-green-beautiful-pregnant-woman-logo-vector-32705202.jpg"><a href="//www.vectorstock.com/royalty-free-vector/natural-green-beautiful-pregnant-woman-logo-vector-32705202" title="natural green beautiful pregnant woman logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/52/02/natural-green-beautiful-pregnant-woman-logo-vector-32705202.jpg" title="natural green beautiful pregnant woman logo" alt="natural green beautiful pregnant woman logo vector image vector image"></noscript></a></li>
+						<li data-id="26732866" data-title="heart care logo design healthcare medical sign" data-src="https://cdn2.vectorstock.com/i/thumbs/28/66/heart-care-logo-design-healthcare-medical-sign-vector-26732866.jpg"><a href="//www.vectorstock.com/royalty-free-vector/heart-care-logo-design-healthcare-medical-sign-vector-26732866" title="heart care logo design healthcare medical sign vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/28/66/heart-care-logo-design-healthcare-medical-sign-vector-26732866.jpg" title="heart care logo design healthcare medical sign" alt="heart care logo design healthcare medical sign vector image vector image"></noscript></a></li>
+						<li data-id="32497245" data-title="modern symbol love heart logo design" data-src="https://cdn1.vectorstock.com/i/thumbs/72/45/modern-symbol-love-heart-logo-design-vector-32497245.jpg"><a href="//www.vectorstock.com/royalty-free-vector/modern-symbol-love-heart-logo-design-vector-32497245" title="modern symbol love heart logo design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/72/45/modern-symbol-love-heart-logo-design-vector-32497245.jpg" title="modern symbol love heart logo design" alt="modern symbol love heart logo design vector image vector image"></noscript></a></li>
+						<li data-id="28018394" data-title="silhouette golden retriever dog logo stylish" data-src="https://cdn5.vectorstock.com/i/thumbs/83/94/silhouette-golden-retriever-dog-logo-stylish-vector-28018394.jpg"><a href="//www.vectorstock.com/royalty-free-vector/silhouette-golden-retriever-dog-logo-stylish-vector-28018394" title="silhouette golden retriever dog logo stylish vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/83/94/silhouette-golden-retriever-dog-logo-stylish-vector-28018394.jpg" title="silhouette golden retriever dog logo stylish" alt="silhouette golden retriever dog logo stylish vector image vector image"></noscript></a></li>
+						<li data-id="28234786" data-title="home care logo design helping hand and house" data-src="https://cdn2.vectorstock.com/i/thumbs/47/86/home-care-logo-design-helping-hand-and-house-vector-28234786.jpg"><a href="//www.vectorstock.com/royalty-free-vector/home-care-logo-design-helping-hand-and-house-vector-28234786" title="home care logo design helping hand and house vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/47/86/home-care-logo-design-helping-hand-and-house-vector-28234786.jpg" title="home care logo design helping hand and house" alt="home care logo design helping hand and house vector image vector image"></noscript></a></li>
+						<li data-id="30542181" data-title="new podiatric care foot print logo design icon" data-src="https://cdn2.vectorstock.com/i/thumbs/21/81/new-podiatric-care-foot-print-logo-design-icon-vector-30542181.jpg"><a href="//www.vectorstock.com/royalty-free-vector/new-podiatric-care-foot-print-logo-design-icon-vector-30542181" title="new podiatric care foot print logo design icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/21/81/new-podiatric-care-foot-print-logo-design-icon-vector-30542181.jpg" title="new podiatric care foot print logo design icon" alt="new podiatric care foot print logo design icon vector image vector image"></noscript></a></li>
+						<li data-id="27548126" data-title="square love heart logo design symbol" data-src="https://cdn2.vectorstock.com/i/thumbs/81/26/square-love-heart-logo-design-symbol-vector-27548126.jpg"><a href="//www.vectorstock.com/royalty-free-vector/square-love-heart-logo-design-symbol-vector-27548126" title="square love heart logo design symbol vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/81/26/square-love-heart-logo-design-symbol-vector-27548126.jpg" title="square love heart logo design symbol" alt="square love heart logo design symbol vector image vector image"></noscript></a></li>
+						<li data-id="30696879" data-title="home care logo design hand and house symbol" data-src="https://cdn5.vectorstock.com/i/thumbs/68/79/home-care-logo-design-hand-and-house-symbol-vector-30696879.jpg"><a href="//www.vectorstock.com/royalty-free-vector/home-care-logo-design-hand-and-house-symbol-vector-30696879" title="home care logo design hand and house symbol vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/68/79/home-care-logo-design-hand-and-house-symbol-vector-30696879.jpg" title="home care logo design hand and house symbol" alt="home care logo design hand and house symbol vector image vector image"></noscript></a></li>
+						<li data-id="27041797" data-title="symbol love triangle logo design" data-src="https://cdn3.vectorstock.com/i/thumbs/17/97/symbol-love-triangle-logo-design-vector-27041797.jpg"><a href="//www.vectorstock.com/royalty-free-vector/symbol-love-triangle-logo-design-vector-27041797" title="symbol love triangle logo design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/17/97/symbol-love-triangle-logo-design-vector-27041797.jpg" title="symbol love triangle logo design" alt="symbol love triangle logo design vector image vector image"></noscript></a></li>
+						<li data-id="28933232" data-title="silhouette love mother and baby logo graphic" data-src="https://cdn3.vectorstock.com/i/thumbs/32/32/silhouette-love-mother-and-baby-logo-graphic-vector-28933232.jpg"><a href="//www.vectorstock.com/royalty-free-vector/silhouette-love-mother-and-baby-logo-graphic-vector-28933232" title="silhouette love mother and baby logo graphic vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/32/32/silhouette-love-mother-and-baby-logo-graphic-vector-28933232.jpg" title="silhouette love mother and baby logo graphic" alt="silhouette love mother and baby logo graphic vector image vector image"></noscript></a></li>
+						<li data-id="28234787" data-title="home care logo design helping hand and house" data-src="https://cdn3.vectorstock.com/i/thumbs/47/87/home-care-logo-design-helping-hand-and-house-vector-28234787.jpg"><a href="//www.vectorstock.com/royalty-free-vector/home-care-logo-design-helping-hand-and-house-vector-28234787" title="home care logo design helping hand and house vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/47/87/home-care-logo-design-helping-hand-and-house-vector-28234787.jpg" title="home care logo design helping hand and house" alt="home care logo design helping hand and house vector image vector image"></noscript></a></li>
+						<li data-id="34332529" data-title="sign a lover growing love logo icon" data-src="https://cdn5.vectorstock.com/i/thumbs/25/29/sign-a-lover-growing-love-logo-icon-vector-34332529.jpg"><a href="//www.vectorstock.com/royalty-free-vector/sign-a-lover-growing-love-logo-icon-vector-34332529" title="sign a lover growing love logo icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/25/29/sign-a-lover-growing-love-logo-icon-vector-34332529.jpg" title="sign a lover growing love logo icon" alt="sign a lover growing love logo icon vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-by_freaktor" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="/royalty-free-vectors/amor-vectors">Amor</a></li>
+					<li><a href="/royalty-free-vectors/spanish-vectors">Spanish</a></li>
+					<li><a href="/royalty-free-vectors/lettering-vectors">Lettering</a></li>
+					<li><a href="/royalty-free-vectors/love-vectors">Love</a></li>
+					<li><a href="/royalty-free-vectors/mi-vectors">Mi</a></li>
+					<li><a href="/royalty-free-vectors/my-vectors">My</a></li>
+					<li><a href="/royalty-free-vectors/background-vectors">Background</a></li>
+					<li><a href="/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="/royalty-free-vectors/day-vectors">Day</a></li>
+					<li><a href="/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="/royalty-free-vectors/valentine-vectors">Valentine</a></li>
+					<li><a href="/royalty-free-vectors/romantic-vectors">Romantic</a></li>
+					<li><a href="/royalty-free-vectors/heart-vectors">Heart</a></li>
+					<li><a href="/royalty-free-vectors/happy-vectors">Happy</a></li>
+					<li><a href="/royalty-free-vectors/white-vectors">White</a></li>
+					<li><a href="/royalty-free-vectors/red-vectors">Red</a></li>
+					<li><a href="/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="/royalty-free-vectors/label-vectors">Label</a></li>
+					<li><a href="/royalty-free-vectors/shape-vectors">Shape</a></li>
+					<li><a href="/royalty-free-vectors/word-vectors">Word</a></li>
+					<li><a href="/royalty-free-vectors/cloud-vectors">Cloud</a></li>
+					<li><a href="/royalty-free-vectors/card-vectors">Card</a></li>
+					<li><a href="/royalty-free-vectors/romance-vectors">Romance</a></li>
+					<li><a href="/royalty-free-vectors/celebration-vectors">Celebration</a></li>
+					<li><a href="/royalty-free-vectors/invitation-vectors">Invitation</a></li>
+					<li><a href="/royalty-free-vectors/message-vectors">Message</a></li>
+					<li><a href="/royalty-free-vectors/valentines-vectors">Valentines</a></li>
+					<li><a href="/royalty-free-vectors/greeting-vectors">Greeting</a></li>
+					<li><a href="/royalty-free-vectors/different-vectors">Different</a></li>
+					<li><a href="/royalty-free-vectors/languages-vectors">Languages</a></li>
+					<li><a href="/royalty-free-vectors/graphic-vectors">Graphic</a></li>
+					<li><a href="/royalty-free-vectors/illustration-vectors">Illustration</a></li>
+					<li><a href="/royalty-free-vectors/retro-vectors">Retro</a></li>
+					<li><a href="/royalty-free-vectors/landscape-vectors">Landscape</a></li>
+					<li><a href="/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="/royalty-free-vectors/blue-vectors">Blue</a></li>
+					<li><a href="/royalty-free-vectors/wall-vectors">Wall</a></li>
+					<li><a href="/royalty-free-vectors/letter-vectors">Letter</a></li>
+					<li><a href="/royalty-free-vectors/textures-vectors">Textures</a></li>
+					<li><a href="/royalty-free-vectors/water-vectors">Water</a></li>
+					<li><a href="/royalty-free-vectors/couple-vectors">Couple</a></li>
+					<li><a href="/royalty-free-vectors/gift-vectors">Gift</a></li>
+					<li><a href="/royalty-free-vectors/typography-vectors">Typography</a></li>
+					<li><a href="/royalty-free-vectors/international-vectors">International</a></li>
+					<li><a href="/royalty-free-vectors/text-vectors">Text</a></li>
+					<li><a href="/royalty-free-vectors/decoration-vectors">Decoration</a></li>
+					<li><a href="/royalty-free-vectors/spain-vectors">Spain</a></li>
+					<li><a href="/royalty-free-vectors/concept-vectors">Concept</a></li>
+					<li><a href="/royalty-free-vectors/beautiful-vectors">Beautiful</a></li>
+					<li><a href="/royalty-free-vectors/art-vectors">Art</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="/" title="Home">Home</a></li>
+					<li class="sel"><a href="/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="/signup" title="Join Now">Join Now</a></li>
+						<li><a href="/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="/?signup=1&contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock&reg;">VectorStock&reg;</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				&copy; 2023. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="HY/Hi+axlavS5EBr55i8uLncBUE2D98uRmK4yd91jrA=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":44,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body>
+</html>
